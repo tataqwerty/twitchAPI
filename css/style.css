@@ -1,0 +1,146 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #eee;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 700px;
+	border: 2px solid #000;
+	margin: 20px auto;
+	background-color: #fff;
+}
+
+.menu-list {
+	display: flex;
+}
+
+.menu-list__item {
+	width: 100%;
+	border: 1px solid #fff;
+}
+
+.menu-list__item-link {
+	display: block;
+	background: grey;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.menu-list__item-link:hover {
+	background-color: #ccc;
+}
+
+.menu-list__item-link--active {
+	background-color: #ccc;
+}
+
+.search {
+	border-bottom: 2px solid #eee;
+	padding: 10px;
+	text-align: center;
+}
+
+.search__item {
+	border: 1px solid #000;
+	border-radius: 50px;
+	width: 70%;
+	padding: 5px;
+}
+
+.result-list .item {
+	border-bottom: 2px solid #ccc;
+}
+
+.result-list .item:last-child {
+	border-bottom: none;
+}
+
+.item__img-wrap {
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.item__text-wrap {
+	flex-grow: 1;
+}
+
+.img-wrap {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid #eee;
+	overflow: hidden;
+}
+
+.item__img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.item__name {
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #b8cca6;
+}
+
+.item__stream-text {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.item__status {
+    display: block;
+    font-size: 18px;
+    line-height: 70px;
+    text-align: right;
+	padding-right: 15px;
+}
+
+.result-list .item-link {
+	display: block;
+	color: #8ea7c2;
+	background-color: #4a5e82;
+	display: flex;
+}
+
+.result-list .item-link--stream {
+	background-color: #b8cca6;
+	color: #4a5e82;
+}
+
+.result-list .item-link:hover {
+	background-color: #4A5EA9;
+	color: #8ea7c2;
+}
+
+.result-list .item-link--stream .item__name {
+	color: #4a5e82;
+}
+
+.result-list .item-link--stream:hover .item__name {
+	color: #8ea7c2;
+}
